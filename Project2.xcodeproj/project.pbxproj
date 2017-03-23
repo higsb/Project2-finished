@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9872DA901E83511300A3EA8E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9872DA8F1E83511300A3EA8E /* main.cpp */; };
+		9872DA9B1E8351A700A3EA8E /* DDP2main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9872DA9A1E8351A700A3EA8E /* DDP2main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +23,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9872DA8C1E83511300A3EA8E /* Project2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Project2; sourceTree = BUILT_PRODUCTS_DIR; };
-		9872DA8F1E83511300A3EA8E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9872DA8C1E83511300A3EA8E /* Project2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = Project2; path = "/Users/dennisdurant2/Documents/CPSC 131/Project2/build/Debug/Project2"; sourceTree = "<absolute>"; };
+		9872DA961E83516B00A3EA8E /* TextTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextTool.h; sourceTree = "<group>"; };
+		9872DA971E83516B00A3EA8E /* large_file.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = large_file.txt; sourceTree = "<group>"; };
+		9872DA981E83516B00A3EA8E /* small_file.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = small_file.txt; sourceTree = "<group>"; };
+		9872DA9A1E8351A700A3EA8E /* DDP2main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DDP2main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,22 +45,16 @@
 			isa = PBXGroup;
 			children = (
 				9872DA8E1E83511300A3EA8E /* Project2 */,
-				9872DA8D1E83511300A3EA8E /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		9872DA8D1E83511300A3EA8E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9872DA8C1E83511300A3EA8E /* Project2 */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		9872DA8E1E83511300A3EA8E /* Project2 */ = {
 			isa = PBXGroup;
 			children = (
-				9872DA8F1E83511300A3EA8E /* main.cpp */,
+				9872DA9A1E8351A700A3EA8E /* DDP2main.cpp */,
+				9872DA961E83516B00A3EA8E /* TextTool.h */,
+				9872DA971E83516B00A3EA8E /* large_file.txt */,
+				9872DA981E83516B00A3EA8E /* small_file.txt */,
 			);
 			path = Project2;
 			sourceTree = "<group>";
@@ -104,7 +101,7 @@
 				en,
 			);
 			mainGroup = 9872DA831E83511300A3EA8E;
-			productRefGroup = 9872DA8D1E83511300A3EA8E /* Products */;
+			productRefGroup = 9872DA831E83511300A3EA8E;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -118,7 +115,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9872DA901E83511300A3EA8E /* main.cpp in Sources */,
+				9872DA9B1E8351A700A3EA8E /* DDP2main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
